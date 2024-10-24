@@ -30,4 +30,4 @@ export const links: Array<{ platform: Platform; link: string }> = [
 	},
 ];
 
-export const skills = getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html');
+export const skills = getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html', 'vuejs');
