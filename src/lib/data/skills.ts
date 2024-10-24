@@ -107,6 +107,15 @@ export const items = [
 		name: 'jQuery',
 		category: 'library'
 	}),
+	defineSkill({
+		slug: 'vuejs',
+		color: '#08bf86',
+		description:
+			'Experienced in using Vue.js for building dynamic user interfaces, component-based architecture, state management, and handling routing for Single Page Applications (SPAs).',
+		logo: Assets.VueJs,
+		name: 'VueJs',
+		category: 'framework'
+	}),
 ] as const;
 
 export const title = 'Skills';
