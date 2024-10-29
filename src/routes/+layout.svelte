@@ -4,17 +4,30 @@
 	import '$lib/index.scss';
 	import { onHydrated, theme } from '$lib/stores/theme';
 	import { onMount } from 'svelte';
+	import Loader from '../JudeLoader.svelte';
 
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
 
 	onMount(() => onHydrated());
+	let loading = true;
+	onMount(async () => {
+        // Minimum loader delay of 3 seconds
+        await new Promise(resolve => setTimeout(resolve, 2000));
+
+        // Once 3 seconds have passed, you can then set loading to false
+        loading = false;
+    });
 </script>
+{#if loading}
+	<Loader visible={loading} />
+{:else}
 
 <div class={`body contents ${$theme ? 'theme-dark' : 'theme-light'}`}>
 	<NavMenu />
 	<div class="content container"><slot /></div>
 </div>
+{/if}
 
 <style lang="scss">
 	.content {
