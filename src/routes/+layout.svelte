@@ -9,15 +9,18 @@
 	// ? moved to +layout.server.ts : will be deleted when we make sure that everything is alright
 	// export const prerender = true;
 
-	onMount(() => onHydrated());
 	let loading = true;
-	onMount(async () => {
-        // Minimum loader delay of 3 seconds
-        await new Promise(resolve => setTimeout(resolve, 2000));
 
-        // Once 3 seconds have passed, you can then set loading to false
-        loading = false;
-    });
+onMount(async () => {
+	// Call onHydrated first
+	onHydrated();
+
+	// Minimum loader delay of 2 seconds
+	await new Promise(resolve => setTimeout(resolve, 2000));
+
+	// After delay, set loading to false
+	loading = false;
+});
 </script>
 {#if loading}
 	<Loader visible={loading} />
