@@ -25,8 +25,4 @@ As an experienced Full Stack Developer with a background in the marketing and ad
 
 ### Badges
 
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/jude-lobo"><img src="https://github-readme-stats.vercel.app/api?username=jude-lobo&show_icons=true&hide=&count_private=true&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&show_icons=true" alt="jude-lobo's GitHub stats" /></a>
-
 <a href="https://github.com/jude-lobo" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jude-lobo&langs_count=10&title_color=0891b2&text_color=ffffff&icon_color=0891b2&bg_color=1c1917&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
