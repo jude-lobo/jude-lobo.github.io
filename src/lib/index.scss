@@ -2,7 +2,8 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Space+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 :root {
 	--dark-0: #000;
@@ -49,8 +50,9 @@
 	--light-0-60: rgba(255, 255, 255, 0.6);
 
 	// fonts
-	--text-f: 'Inter';
-	--title-f: 'Inter';
+	--text-f: 'Oswald';
+	--title-f: 'Oswald';
+	--input-f: 'Oswald';
 
 	overflow-y: scroll;
 }
@@ -165,7 +167,7 @@ body {
 	--code-interpolation: var(--code-keyword);
 	--code-class-name: var(--secondary-text);
 
-	font-family: 'Space Mono', monospace;
+	font-family: 'Oswald', sans-serif;
 	font-size: 14px;
 
 	color: var(--tertiary-text);

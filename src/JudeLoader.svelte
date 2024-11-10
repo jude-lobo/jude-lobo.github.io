@@ -28,7 +28,7 @@
 	.spinner {
 		width: 50px;
 		height: 50px;
-		border: 5px solid #f3f3f3; /* Light grey */
+		border: 5px solid white; /* Light grey */
 		border-top: 5px solid #15bf74; /* Blue color */
 		border-radius: 50%;
 		animation: spin 1s linear infinite;
