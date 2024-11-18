@@ -11,16 +11,16 @@
 
 	let loading = true;
 
-onMount(async () => {
-	// Call onHydrated first
-	onHydrated();
+	onMount(async () => {
+		// Call onHydrated first
+		onHydrated();
 
-	// Minimum loader delay of 2 seconds
-	await new Promise(resolve => setTimeout(resolve, 2000));
+		// Minimum loader delay of 2 seconds
+		await new Promise(resolve => setTimeout(resolve, 2000));
 
-	// After delay, set loading to false
-	loading = false;
-});
+		// After delay, set loading to false
+		loading = false;
+	});
 </script>
 {#if loading}
 	<Loader visible={loading} />
