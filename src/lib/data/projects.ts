@@ -14,7 +14,7 @@ export const items: Array<Project> = [
 		links: [{ to: '#', label: 'In-house' }],
 		logo: Assets.Mobits,
 		name: 'Mobits',
-		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'mysql', 'css', 'html', 'jquery'),
 		type: 'In-house Project'
 	},
 	{
@@ -28,7 +28,7 @@ export const items: Array<Project> = [
 		links: [{ to: '#', label: 'In-house' }],
 		logo: Assets.Survit,
 		name: 'Survit',
-		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'mysql', 'css', 'html', 'jquery'),
 		type: 'In-house Project',
 	},
 	{
@@ -42,7 +42,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.unilever.pk/', label: 'Unilever' }],
 		logo: Assets.Unilever,
 		name: 'Unilever',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -56,7 +56,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.unilever.pk/brands/nutrition/knorr/', label: 'Knorr' }],
 		logo: Assets.Knorr,
 		name: 'Knorr',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -70,7 +70,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.lipton.com.pk', label: 'Lipton' }],
 		logo: Assets.Lipton,
 		name: 'Lipton',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -84,7 +84,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.jazz.com.pk', label: 'Jazz' }],
 		logo: Assets.Jazz,
 		name: 'Jazz',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -98,7 +98,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.hbl.com/', label: 'HBL' }],
 		logo: Assets.HBL,
 		name: 'HBL',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -112,7 +112,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.psx.com.pk/', label: 'PSX' }],
 		logo: Assets.PSX,
 		name: 'PSX',
-		skills: getSkills('php', 'js', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -126,7 +126,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.mcb.com.pk', label: 'MCB' }],
 		logo: Assets.MCB,
 		name: 'MCB',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -140,7 +140,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.faysalbank.com/', label: 'Faysal' }],
 		logo: Assets.Faysal,
 		name: 'Faysal Bank',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -154,7 +154,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.iobm.edu.pk', label: 'IoBM' }],
 		logo: Assets.IoBM,
 		name: 'IoBM',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -168,7 +168,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.ebm.com.pk/', label: 'EBM' }],
 		logo: Assets.EBM,
 		name: 'EBM',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -182,7 +182,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.martindow.com/', label: 'MartinDow' }],
 		logo: Assets.Martin,
 		name: 'MartinDow',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -196,7 +196,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.searlepakistan.com/', label: 'Searle' }],
 		logo: Assets.Searle,
 		name: 'Searle',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 	{
@@ -210,7 +210,7 @@ export const items: Array<Project> = [
 		links: [{ to: 'https://www.khaadi.com/', label: 'Khaadi' }],
 		logo: Assets.Khaadi,
 		name: 'Khaadi',
-		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html'),
+		skills: getSkills('php', 'js', 'codeigniter', 'mysql', 'css', 'html', 'jquery'),
 		type: 'Client Website',
 	},
 ];

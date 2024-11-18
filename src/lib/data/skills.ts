@@ -78,7 +78,7 @@ export const items = [
 			'Proficient in designing and optimizing MySQL databases, writing complex queries, and ensuring data integrity and security.',
 		logo: Assets.MySQL,
 		name: 'MySQL',
-		category: 'pro-lang'
+		category: 'db'
 	}),
 	defineSkill({
 		slug: 'css',
@@ -115,6 +115,24 @@ export const items = [
 		logo: Assets.VueJs,
 		name: 'VueJs',
 		category: 'framework'
+	}),
+	defineSkill({
+		slug: 'docker',
+		color: '#2496ED',
+		description:
+			'Experienced in leveraging Docker to create consistent development environments, containerize applications, and streamline testing processes. Skilled in writing and managing Dockerfiles, orchestrating multi-container setups using Docker Compose, and optimizing workflows for local development and debugging.',
+		logo: Assets.Docker,
+		name: 'Docker',
+		category: 'devtools'
+	}),
+	defineSkill({
+		slug: 'git',
+		color: '#F05032',
+		description:
+			'Proficient in using Git for version control, branch management, and collaborative development. Experienced in managing repositories, resolving merge conflicts, and utilizing Git workflows (e.g., Git Flow) to maintain code quality and track project history effectively.',
+		logo: Assets.Git,
+		name: 'Git',
+		category: 'devtools'
 	}),
 ] as const;
 

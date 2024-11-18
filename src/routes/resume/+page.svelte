@@ -8,8 +8,8 @@
 <CommonPage {title}>
 	<div class="resume">
 		{#if data}
-			<a href={data} download>
-				<Chip size={'1.25em'}>Download</Chip>
+			<a href={data} target="_blank">
+				<Chip size={'1.25em'}>View</Chip>
 			</a>
 		{:else}
 			<Chip>Ooops! no CV at the moment.</Chip>
