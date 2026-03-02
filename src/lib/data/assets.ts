@@ -100,6 +100,7 @@ const Assets = {
 	Lipton: a('lipton.svg'),
 	Searle: a('searle.png'),
 	IoBM: a('iobm.png'),
+	Planipret: a('planipret-logo.png'),
 };
 
 export default Assets;

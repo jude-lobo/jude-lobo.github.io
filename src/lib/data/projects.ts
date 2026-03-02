@@ -4,6 +4,20 @@ import type { Project } from '../types';
 
 export const items: Array<Project> = [
 	{
+		slug: 'planipret',
+		color: '#ff3e00',
+		description:
+			'<p>Planiprêt`s website provides digital tools and resources for mortgage professionals, helping streamline loan planning, management, and decision-making through a modern web platform.</p><h4>Responsibilities:</h4> <ul> <li>Contributed to the development and maintenance of Planiprêt`s web platform, focusing on performance, reliability, and scalability.</li> <li>Worked extensively on <strong>Maestro</strong>, an internal tool used by mortgage professionals to manage workflows and optimize processes.</li> <li>Implemented backend and frontend features using <strong>Laravel</strong> and <strong>CodeIgniter</strong>.</li> <li>Developed interactive user interfaces using <strong>JavaScript</strong> and <strong>Vue.js</strong>.</li> <li>Designed and optimized database interactions using <strong>MySQL</strong>.</li> </ul>',
+		shortDescription:
+			'Planiprêt`s website provides digital tools and resources for mortgage professionals, helping streamline loan planning, management, and decision-making through a modern web platform.',
+		period: { from: new Date(2024, 9, 30), to: new Date(2026, 1, 28) },
+		links: [{ to: 'https://www.planipret.com', label: 'Planiprêt' }],
+		logo: Assets.Planipret,
+		name: 'Planiprêt',
+		skills: getSkills('php', 'js', 'codeigniter', 'laravel', 'vuejs', 'mysql', 'css', 'html', 'jquery'),
+		type: 'Client Website',
+	},
+	{
 		slug: 'mobits',
 		color: '#5e95e3',
 		description:
